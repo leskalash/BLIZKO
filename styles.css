@@ -1,0 +1,245 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* margin-bottom: 200px; */
+    background-color: #FFFFFF;
+    font-family: 'Geologica';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.homepage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.homepage-text {
+    font-size: 64px;
+    line-height: 100%;
+    color: black;
+}
+
+.homepage-banner {
+    margin-bottom: -5px;
+}
+
+.red {
+    background-color: #E03716;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us-text {
+    font-size: 48px;
+    line-height: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.pattern2 {
+    padding-top: 70px;
+}
+
+.place {
+    display: flex;
+    justify-content: start;
+}
+
+.place-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 162px;
+}
+
+.place-photo {
+    margin-bottom: -4px;
+}
+
+.place-title {
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.place-text {
+    font-size: 20px;
+    line-height: 100%;
+    color: black;
+    padding-top: 35px;
+}
+
+.pink {
+    background-color: #E1A6B8;
+}
+
+.should-come {
+    background-image: url(images/pattern3.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.should-come-text {
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 182px;
+    padding-bottom: 183px;
+}
+
+.party {
+    display: flex;
+    justify-content: space-between;
+}
+
+.party-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 162px;
+}
+
+.party-title {
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.party-text {
+    font-size: 20px;
+    line-height: 100%;
+    color: black;
+    padding-top: 35px;
+}
+
+.party-photo {
+    margin-bottom: -5px;
+}
+
+.green {
+    background-color: #549987;
+}
+
+.try {
+    background-image: url(images/pattern4.svg);
+    background-repeat: no-repeat;
+}
+
+.try-text {
+    font-size: 32px;
+    line-height: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 162px;
+    padding-bottom: 161px;
+}
+
+.yellow {
+    background-color: #E5E525;
+}
+
+.form-registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-pattern {
+    padding-top: 53px;
+    padding-bottom: 45px;
+    padding-right: 54px;
+}
+
+.footer {
+    background-image: url(images/pattern5.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-text {
+    font-size: 20px;
+    line-height: 100%;
+    color: black;
+    font-weight: 800;
+    padding-top: 149px;
+    padding-bottom: 149px;
+    padding-left: 597px;
+}
+
+.footer-text2 {
+    padding-top: 20px;
+}
+
+.button-up {
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    right: 50px;
+    bottom: 50px;
+  }
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 59px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-fields input {
+    display: block;
+    background-color: #E5E525;
+    margin: 45px 0;
+    padding: 8px 0;
+    border: 0;
+    border-bottom: 1px solid #9A9595;
+    font-family: 'Geologica';
+    font-size: 16px;
+    width: 400px;
+    color: #000;
+}
+
+.form button {
+    background-color: #E1A6B8;
+    padding: 8px 10px;
+    color: #fff;
+    font-family: 'Geologica';
+    font-size: 16px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
